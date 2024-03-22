@@ -1,6 +1,6 @@
-import { JsonFragment } from "@ethersproject/abi";
+import { JsonFragment, Interface } from "@ethersproject/abi";
 import { Provider } from "@ethersproject/providers";
-import { Interface } from "ethers/lib/utils";
+
 
 import { CallInput, TokenBalances, TokenBalancesAndAllowances, UniswapReservesData } from './types';
 import { toProvider } from "./utils";

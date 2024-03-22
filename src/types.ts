@@ -1,5 +1,4 @@
-import { JsonFragment } from "@ethersproject/abi";
-import { Interface } from "ethers/lib/utils";
+import { JsonFragment, Interface } from "@ethersproject/abi";
 import { BigNumber } from "ethers";
 
 export type CallInput = {

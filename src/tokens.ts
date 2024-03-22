@@ -1,5 +1,6 @@
-import { BigNumber } from "ethers";
-import { defaultAbiCoder } from "ethers/lib/utils";
+
+import { defaultAbiCoder } from "@ethersproject/abi";
+
 import { toProvider } from "./utils";
 
 import { TokenBalances, TokenBalancesAndAllowances } from './types';

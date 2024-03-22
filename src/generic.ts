@@ -1,5 +1,4 @@
-import { JsonFragment } from "@ethersproject/abi";
-import { defaultAbiCoder, Interface } from "ethers/lib/utils";
+import { JsonFragment, defaultAbiCoder, Interface } from "@ethersproject/abi";
 
 import { CallInput } from './types';
 import { MultiCall as bytecode, MultiCallStrict as bytecodeStrict } from "./bytecode.json";
